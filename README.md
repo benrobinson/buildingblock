@@ -111,3 +111,7 @@ var button = new BuildingBlock("button",{
                 }
               }, "Click Me");
 ```
+
+## Future?
+
+One feature I'd like to add is the ability to decompose existing DOMelements into BuildingBlock JSON.
