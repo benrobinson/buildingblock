@@ -96,9 +96,9 @@
     
     // Parse from JSON, or use a ready object
     if ( typeof json === "string" ) {
-      var data = JSON.parse(json);
+      var json = JSON.parse(json);
     } else {
-      var data = json;
+      var json = json;
     }
     
     // If this object opens as an array, add each as a child
